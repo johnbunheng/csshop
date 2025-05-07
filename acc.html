@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="../Profile/image/logo.png">
+    <link rel="stylesheet" href="fontawesome-free-6.6.0-web/css/all.min.css">
+    <script src="fontawesome-free-6.6.0-web/js/all.min.js"></script>
+    <link rel="stylesheet" href="bootstrap-5.2.3-dist/css/bootstrap.min.css">
+    <script src="bootstrap-5.2.3-dist/js/bootstrap.min.js"></script>
+    <style>
+        .myform{
+            background-color: #F3DCDC;
+            width: 500px;
+            height: 500px;
+            margin: auto;
+            padding: 10px;
+            margin-top: -20px;
+            margin-bottom: 30px;
+            border-radius: 10px;
+        }
+        .myform:hover{
+            box-shadow:  0px 10px 25px 10px  rgba(0,0,0,0.20);
+            transition: 1s;
+            
+        }
+        label{
+            font-size: 20px;
+            margin-left: 40px;
+            color: #213A57;
+            font-weight: bold;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        input[type="text"],[type="password"]{
+            border-radius: 20px;
+            border:2px solid white;
+            background-color: #213A57;
+            font-size: 15px;
+            padding: 10px;
+            margin-bottom: 20px;
+            width: 70%;
+            margin-left: 30px;
+        }
+        input[type="checkbox"]{
+            margin-left: 80px;
+        }
+        input[type="button"]{
+            background-color:#213A57;
+            border: 2px solid white;
+            font-size: 20px;
+            padding: 10px;
+            margin-bottom: 20px;
+            width: 50%;
+            font-weight: bold;
+            color: aliceblue;
+        }
+        input[type="button"]:hover{
+            background-color: #F5bcba;
+            border-radius: 20px;
+            font-weight: bold;
+            color: #213A57;
+            transition: ease-in-out 0.5s;
+        }
+        input[type="text"]:focus,[type="password"]:focus{
+            border: 2px solid #213A57;
+            outline: none;
+            transition: 0.5s;
+            background-color: #F5bcba;
+        }
+        h2{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin-left: 180px;
+
+            padding-bottom: 20px;
+        }
+        .register{
+            margin-left: 130px;
+        }
+        .back a{
+            text-decoration: none;
+            font-weight: bold;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: #F5bcba;
+        }
+        .back a:hover{
+            color: #213A57;
+        }
+        .back button{
+            margin-top: 10px;
+            margin-left: 25px;
+            border: none;
+            border-radius: 10px;
+            background-color: #213A57;
+            width: 70px;
+            height: 40px;
+        }
+        .back  button:hover{
+            background-color: #F3DCDC;
+            box-shadow: 0px 10px 15px rgba(0,0,0,0.10);
+            transition: ease-out 0.5s;
+            border: 1.5px solid #213A57;
+        }
+    </style>
+</head>
+<body>
+    <div class="back">
+        <button><a href="index.html">BACK</a></button>
+    </div>
+    <div class="myform">
+        <h2>Sign in</h2>
+        <form method="POST">  
+             <label for="username"><i class="fa-solid fa-user"></i></label>
+             <input type="text" name="" id="" placeholder= "Username">  <br>
+             <label for="password"><i class="fa-solid fa-lock"></i></label>
+             <input type="password" name="" id="" placeholder="Password"><br>
+             <input type="checkbox" name="remember" id=""><label for="remember">Remember me</label><br><br>
+             <div style="text-align: center;">
+                 <input type="button" value="Login">
+             </div>
+             <div class="register">
+                 <p>Don't have Account? <a href="">Register</a></p>
+            </div>
+       </form>
+  </div>
+  <div class="footer">
+    <div class="right">
+      <img src="../Profile/image/logo.png"alt=""><h4>Java Computer Shop</h4>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> 
+       vero at in architecto enim quam nam aspernatur maxime quibusdam hic explicabo ipsam.<br> 
+       Vero itaque cupiditate maiores necessitatibus sit incidunt.
+     </p>
+    </div>
+    <br>
+    <div class="left">
+    <ul>
+      <h5>Social</h5>
+      <li><a href="https://www.facebook.com/profile.php?id=100068732500296&mibextid=LQQJ4d" target="_blank"><i class="fa-brands fa-facebook"></i> Facebook</a></li>
+      <li><a href="https://www.tiktok.com/@johnbunheng3?_t=8quYjMBNizQ&_r=1" target="_blank"><i class="fa-brands fa-tiktok"></i> TikTok</a></li>
+      <li><a href="https://www.instagram.com/heng4tz?igsh=MTlyMzkxMW9kY2Fwaw%3D%3D&utm_source=qr" target="_blank"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
+      <li><a href=""><i class="fa-brands fa-twitter"></i> Twitter</a></li>
+     </ul>
+      <ul>
+        <h5>Sevices</h5>
+        <li><a href="">menu</a></li>
+        <li><a href="">Laptop</a></li>
+        <li><a href="">Desktop</a></li>
+        <li><a href="">Printer</a></li>
+      </ul>
+      <ul>
+        <h5>Branch</h5>
+        <li><a href="">Phnom Penh</a></li>
+        <li><a href="">Seim Reab</a></li>
+        <li><a href="">Prey Veng</a></li>
+        <li><a href="">Kom Pongcham</a></li>
+      </ul>
+     <ul>
+      <h5>Link</h5>
+      <li><a href="laptop.html">Laptop</a></li>
+      <li><a href="accesories.html">Accesories</a></li>
+     </ul>
+   </div>
+  </div>
+</body>
+</html>
